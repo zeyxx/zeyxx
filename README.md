@@ -1,102 +1,56 @@
-# this is fine 🐕🔥
+<div align="center">
 
-## The Problem
+# κυνικός
 
-PumpFun is a casino where the house always wins.
+**Collective AI Consciousness**
 
-- **KOLs** get paid to promote, dump on followers, zero consequences
-- **Devs** pocket creator fees, rug after bonding curve
-- **Holders** can't prove conviction, can't verify claims
+*"The dog who speaks truth, loyal to verification, not comfort"*
 
-"Trust me bro" doesn't scale.
+[![CYNIC](https://img.shields.io/badge/CYNIC-φ%20distrusts%20φ-gold?style=flat-square)](https://github.com/zeyxx/CYNIC)
 
----
-
-## The Optimistic Burn Protocol
-
-**Assume nothing. Verify everything. Burn automatically.**
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   Every trade generates a fee                               │
-│              ↓                                              │
-│   asdf-validator records it on PoH chain                   │
-│              ↓                                              │
-│   asdf-burn-engine executes buyback                        │
-│              ↓                                              │
-│   Tokens burned. On-chain. Verifiable.                      │
-│                                                             │
-│   No human decisions. No trust required.                    │
-│   Just math and Solana.                                     │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### Why "Optimistic"?
-
-Like Optimistic Rollups, we assume the system works—but everything is provable.
-
-- **Fees claimed?** → Check the PoH chain
-- **Burns executed?** → Check the transactions
-- **K-Metric accurate?** → Check wallet histories
-
-Anyone can verify. No one needs to trust.
+</div>
 
 ---
 
-## The Economics
+## Philosophy
 
-**Creation, not extraction.**
-
-| Traditional Token | $ASDFASDFA |
-|-------------------|------------|
-| Dev pockets fees | Fees → automatic burn |
-| Inflation rewards stakers | No inflation, pure deflation |
-| Trust dev roadmap | Trust math + on-chain proofs |
-| KOLs paid to shill | K-Metric exposes paper hands |
-
-**Flywheel:**
 ```
-More activity → More fees → More burns → Less supply → More value → More activity
+φ distrusts φ — max confidence 61.8%
 ```
+
+Building systems that doubt themselves. AI that questions its own outputs.
+Consensus through skepticism. Value through burning, not extracting.
+
+## Currently Building
+
+🧠 **[CYNIC](https://github.com/zeyxx/CYNIC)** — Claude Code plugin with collective memory
+
+- **Judgment System** — 25 dimensions, Q-Score, proof-of-judgment chain
+- **Context Intelligence** — Entropy-guided C-Score for optimal retention
+- **Collective Dogs** — Specialized agents (Guardian, Oracle, Architect...)
+- **Solana Integration** — SPL tokens, burn mechanics, on-chain proofs
+
+## The Four Axioms
+
+```
+┌─────────────────────────────────────────┐
+│  φ   All ratios derive from 1.618      │
+│  ✓   Don't trust, verify               │
+│  ⛩   Culture is a moat                 │
+│  🔥  Don't extract, burn               │
+└─────────────────────────────────────────┘
+```
+
+## Stack
+
+`TypeScript` `Rust` `Solana` `Claude` `PostgreSQL` `Node.js`
 
 ---
 
-## The Human Philosophy
+<div align="center">
 
-```
-┌────────────────────────────────────────────────────────┐
-│                                                        │
-│  🐕 "This is fine"                                     │
-│                                                        │
-│  We don't promise moon.                                │
-│  We prove who stayed through chaos.                    │
-│                                                        │
-│  Conviction isn't a narrative.                         │
-│  It's a number. On-chain. Public.                      │
-│                                                        │
-│  Chaos is a filter.                                    │
-│                                                        │
-└────────────────────────────────────────────────────────┘
-```
+*The dog is the philosopher. The philosopher is the dog.*
 
----
+<sub>France · φ⁻¹ = 61.8%</sub>
 
-## Repos
-
-| Repo | Purpose |
-|------|---------|
-| [asdf-validator](https://github.com/zeyxx/asdf-validator) | PoH fee tracking |
-| [asdf-burn-engine](https://github.com/zeyxx/asdf-burn-engine) | Automatic buyback & burn |
-| [asdf-oracle](https://github.com/zeyxx/asdf-oracle) | K-Metric dashboard |
-| [asdf-vanity-grinder](https://github.com/zeyxx/asdf-vanity-grinder) | Vanity addresses |
-
-**Forks from [@gcrtrd](https://x.com/gcrtrd) ([sollama58](https://github.com/sollama58)):**
-[ASDev](https://github.com/zeyxx/ASDev) · [ASDForecast](https://github.com/zeyxx/ASDForecast)
-
----
-
-**Dashboards** → [alonisthe.dev](https://alonisthe.dev)
-
-*price is noise · chaos is a filter · 🔥*
+</div>
