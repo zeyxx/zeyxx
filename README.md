@@ -1,81 +1,83 @@
 <div align="center">
 
-# κυνικός
+# zeyxx · κυνικός
 
-**Epistemic Immune System**
+**Cybersecurity & Systems Engineer · Autonomous AI Agents · Protocol Security**
 
 *"The dog who speaks truth, loyal to verification, not comfort"*
 
-[![CYNIC](https://img.shields.io/badge/CYNIC-v0.1.0-gold?style=flat-square)](https://github.com/zeyxx/CYNIC)
-[![Rust](https://img.shields.io/badge/Rust-kernel-orange?style=flat-square)](https://github.com/zeyxx/CYNIC/tree/main/cynic-kernel)
-[![φ](https://img.shields.io/badge/max%20confidence-61.8%25-blue?style=flat-square)](#phi-bounding)
+[![Status](https://img.shields.io/badge/Status-B3%20Cybersecurity-blue?style=flat-square)](#)
+[![Focus](https://img.shields.io/badge/Focus-Rust%20%7C%20AI%20Agents%20%7C%20Systems-orange?style=flat-square)](#)
+[![Open To](https://img.shields.io/badge/Open%20to-Apprenticeship%20%2F%20Roles-brightgreen?style=flat-square)](#)
 
 </div>
 
 ---
 
-## Philosophy
+### 👨‍💻 About Me
+
+Currently entering **Bachelor 3 in Cybersecurity** in France.  
+My work bridges low-level systems engineering, protocol reverse-engineering, and autonomous multi-agent runtimes:
+
+- 🦀 **Low-Layer Systems**: Domain-pure Rust kernels, memory safety, hexagonal architecture, Linux substrate observation.
+- 🤖 **Autonomous AI Agents & Inference**: Native transport adapters, reverse-engineered SSE streaming, tool-calling pipelines, Model Context Protocol (MCP).
+- 🛡️ **Security & Protocols**: Authentication boundaries (OAuth 2.0 PKCE, cryptographic signatures), network mesh topologies, Solana / Anchor smart contract analysis.
+
+*Open to apprenticeship (alternance), internships, freelance projects, and technical collaborations.*
+
+---
+
+### 🚀 Featured Projects
+
+#### 1. [hermes-antigravity](https://github.com/zeyxx/hermes-antigravity)
+> **Google Antigravity / Cloud Code Assist inference provider plugin for [Hermes Agent](https://github.com/NousResearch/hermes-agent)**
+- **Native Integration**: Seamlessly wires into Hermes Agent's provider registry and `/model` picker.
+- **Zero API Keys**: Built-in Google OAuth 2.0 PKCE flow unlocking consumer/student **Gemini Pro** and **Google One AI** subscriptions without paid API keys.
+- **Agentic Engine**: Real-time SSE streaming with thinking/reasoning token display (`delta.reasoning_content`) and bidirectional JSON schema tool-calling.
+- **Live Discovery**: Discovers 30+ models on Google infrastructure (`gemini-3.8-flash`, `gemini-3.7-flash`, `gemini-2.5-pro`, `claude-3-7-sonnet`).
+
+#### 2. [CYNIC](https://github.com/zeyxx/CYNIC) *(Sovereign Core — Upcoming Release)*
+> **Epistemic consensus engine & low-layer runtime in Rust**
+- **Multi-Validator Consensus**: Independent validators evaluate content in parallel, scores merged via trimmed-mean with anomaly detection.
+- **6 Axioms of Truth**: Fidelity, Phi, Verify, Culture, Burn, Sovereignty — geometric mean bounded by the golden ratio inverse (**φ⁻¹ = 61.8%**).
+- **Hexagonal Architecture**: Zero framework leakage, pure domain ports & adapters, circuit breakers, and cognitive crystallization (CCM).
+
+#### 3. [GASdf](https://github.com/zeyxx/GASdf)
+> **Decentralized transaction fee abstraction on Solana**
+- Protocol tooling enabling transaction fee settlement across diverse SPL tokens.
+
+---
+
+### 🛠️ Tech Stack
+
+```text
+Languages     : Rust · Python · TypeScript · Go · SQL · Bash
+Systems & Ops : Linux / Kernel · Docker · LXC · Tailscale Mesh · systemd
+AI & Agents   : Hermes Agent · Model Context Protocol (MCP) · llama.cpp · LangChain / DSPy
+Blockchain    : Solana / Anchor · RPC Fan-out · Cryptographic Keychains (Ed25519)
+```
+
+---
+
+### 🏛️ Philosophy: The Six Axioms
 
 ```
-φ distrusts φ — no claim deserves absolute confidence
+┌─────────────────────────────────────────────────────────────┐
+│  FIDELITY      Is this faithful to observed truth?          │
+│  PHI           Is the design harmonious and proportional?   │
+│  VERIFY        Can it be empirically tested or refuted?     │
+│  CULTURE       Does it respect proven foundations?          │
+│  BURN          Is computation minimal, avoiding waste?      │
+│  SOVEREIGNTY   Does it preserve user agency and bounds?     │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-Building systems where independent AI validators reach consensus under mathematical doubt.
-Multiple models evaluate content through 6 philosophical axioms — and **no score can exceed 61.8%** (golden ratio inverse). Disagreement between validators is a discovery signal, not a failure.
-
-## Currently Building
-
-**[CYNIC](https://github.com/zeyxx/CYNIC)** — Epistemic consensus engine in Rust
-
-- **Multi-Validator Consensus** — Independent "Dogs" (Gemini, Qwen, Gemma, heuristics) evaluate in parallel, scores merged via trimmed-mean with anomaly detection
-- **6 Axiom Scoring** — Fidelity, Phi, Verify, Culture, Burn, Sovereignty — geometric mean → phi-bounded Q-Score
-- **Cognitive Crystallization (CCM)** — Patterns that survive 21+ evaluation cycles crystallize into persistent knowledge (Fibonacci thresholds)
-- **Hexagonal Architecture** — Domain-pure Rust kernel, ports & adapters, zero framework leakage
-- **Model-Agnostic Pipeline** — Any OpenAI-compatible backend (local llama.cpp, Gemini API, HuggingFace) via ChatPort trait
-- **Circuit Breakers** — Per-validator fault isolation, automatic recovery
-
-### The Six Axioms
-
-```
-┌─────────────────────────────────────────────────┐
-│  FIDELITY      Is this faithful to truth?       │
-│  PHI           Structurally harmonious?          │
-│  VERIFY        Can it be tested or refuted?      │
-│  CULTURE       Does it honor traditions?         │
-│  BURN          Efficient? Minimal waste?         │
-│  SOVEREIGNTY   Preserves agency and freedom?     │
-└─────────────────────────────────────────────────┘
-```
-
-### Phi-Bounding
-
-Every score is capped at **φ⁻¹ = 0.618** — the golden ratio inverse. This is structural, not a bug. Verdicts map to thresholds derived from φ:
-
-| Verdict | Threshold | Meaning |
-|---------|-----------|---------|
-| **Howl** | ≥ 0.521 | Exceptional |
-| **Wag** | ≥ 0.382 | Good |
-| **Growl** | ≥ 0.236 | Questionable |
-| **Bark** | < 0.236 | Rejected |
-
-## Stack
-
-`Rust` `Axum` `Tokio` `SurrealDB` `React` `TypeScript` `MCP (rmcp)` `Tailscale`
-
-## Numbers
-
-```
-5000 LOC Rust kernel · 80+ tests · 134 commits in 7 days
-6 axioms · φ-bounded scoring · circuit breakers · CCM crystallization
-REST API · MCP server · multi-model inference · hexagonal architecture
-```
+> `φ distrusts φ` — No claim deserves absolute confidence without empirical verification.
 
 ---
 
 <div align="center">
 
-*The dog is the philosopher. The philosopher is the dog.*
-
-<sub>France · φ⁻¹ = 61.8%</sub>
+*France · φ⁻¹ = 61.8%*
 
 </div>
